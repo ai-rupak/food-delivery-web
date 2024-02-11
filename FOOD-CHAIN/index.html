@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>restro.</a>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">dishes</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Review</a>
+        <a href="#">Order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <form action="" id="seacrh-form">
+      <input
+        type="search"
+        placecholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>spicy noodles</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                voluptate temporibus id!
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image">
+                <img src="/images/home-slider-1.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                        voluptate temporibus id!
+                    </p>
+                    <a href="#" class="btn">Order now</a>
+                </div>
+                <div class="image">
+                    <img src="/images/home-slider-2.jpg" alt="">
+                </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>hot pizza</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                voluptate temporibus id!
+              </p>
+              <a href="#" class="btn">Order now</a>
+            </div>
+            <div class="image">
+                <img src="/images/home-slider-3.jpg" alt="">
+            </div>
+          </div>
+
+
+
+        </div>
+         
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
